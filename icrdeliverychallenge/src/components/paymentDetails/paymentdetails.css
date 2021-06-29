@@ -1,0 +1,19 @@
+.payment-details {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 69px;
+}
+
+.payment-form {
+    width: 543px;
+    margin-right: 3rem;
+}
+
+.order-history {
+    width: 294px;
+    height: 259px;
+    background-color: lightgray;
+    border-radius: 10px;
+    padding: 17px;
+}

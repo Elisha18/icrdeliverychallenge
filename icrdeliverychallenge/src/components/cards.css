@@ -1,0 +1,22 @@
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.card-content {
+    background-color: #fff;
+    width: 270px;
+    height: 95px;
+    border: 2px solid black;
+    margin-top: 29px;
+    padding: 31px;
+    text-align: center;
+    border-radius: 10px;
+    margin-right: 37px;
+}
+
+.active {
+    background-color: black;
+    color: white;
+}
