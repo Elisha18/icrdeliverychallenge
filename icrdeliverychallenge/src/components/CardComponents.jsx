@@ -12,9 +12,9 @@ function CardComponents ({value, classes, onOrderChange}) {
 
     return (
         <>
-            <div className={classname()} onClick={()=>onOrderChange(value)}>
+            <div className={classname()} onClick={()=>onOrderChange(value)} style={{marginBottom:'0'}}>
                 <div className="card-miles">
-                    Buy {value.amount} Miles
+                    {value.type} {value.amount} Miles
                 </div>
                 <div className="card-cost">
                     ${value.cost}

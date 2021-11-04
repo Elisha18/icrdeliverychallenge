@@ -7,7 +7,7 @@ import {cardData} from './card';
 function App() {
 
   const [values, setValues] = useState([]);
-  const [types, setTypes] = useState('buy');
+  const [types, setTypes] = useState('Buy');
   const [order, setOrder] = useState({
     amount: '2000',
     cost: '197.00'

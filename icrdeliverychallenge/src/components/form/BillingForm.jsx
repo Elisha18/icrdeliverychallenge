@@ -6,7 +6,7 @@ function BillingForm () {
         <>
             <form>
                 <div className="billing-heading">
-                    <h1>Billing Address</h1>
+                    <h2 style={{color:'#0d6efd'}}>Billing Address</h2>
                 </div>
                 <div className="mb-3">
                     <div><label for="streetaddress" className="form-label">Street Address</label></div>
@@ -50,11 +50,6 @@ function BillingForm () {
                     <div><label for="emailreciept" className="form-label">Email Reciept to</label></div>
                     <input type="text" className="form-control" id="emailreciept"/>
                 </div>
-                <div className="mb-3 form-check">
-                    <div><input type="checkbox" className="form-check-input" id="agreement"/></div>
-                    <label className="form-check-label" for="agreement">I agree to the <a>terms & conditions</a></label>
-                </div>
-                <button type="submit" className="btn" style={{backgroundColor:'black', color:'white'}}>Buy Miles</button>
             </form>
         </>
     )
