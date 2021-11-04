@@ -2,7 +2,7 @@ export const cardData = [
     {
       "type": "Buy",
       "amount": 2000,
-      "cost": 250.00
+      "cost": 1.00
     },
     {
       "type": "Buy",
