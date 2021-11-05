@@ -26,17 +26,22 @@ function PaymentDetails ({cardData}) {
                     <hr/>
                     <div>
                         <h4>Total Miles
-                            <span style={{float:'right'}}>{cardData.amount}</span>
+                            <span style={{float:'right'}}>{cardData.miles}</span>
+                        </h4>
+                    </div>
+                    <div>
+                        <h4>Amount
+                            <span style={{float:'right'}}>${cardData.amount}.00</span>
                         </h4>
                     </div>
                     <div>
                         <h4>GST/HST
-                            <span style={{float:'right'}}>$20.00</span>
+                            <span style={{float:'right'}}>${cardData.tax}.00</span>
                         </h4>
                     </div>
                     <hr/>
                     <h4>Total Cost
-                        <span style={{float:'right'}}>${cardData.cost}</span>
+                        <span style={{float:'right'}}>${cardData.cost}.00</span>
                     </h4>
                     <form>
                         <div className="mb-3">
@@ -45,7 +50,7 @@ function PaymentDetails ({cardData}) {
                             <p style={{fontSize:'12px', marginTop:'0'}}>This includes additional fees of 5% to process pay with Crypto</p>
                         </div>
                     </form>
-                    <button type="submit" className="btn" style={{backgroundColor:'#0d6efd', cursor:'pointer',color:'white', width:'120px' ,marginRight:'10px'}}>Pay Now</button>
+                    <button type="submit" className="btn" style={{backgroundColor:'#0d6efd', cursor:'pointer',color:'white', width:'125px' ,marginRight:'10px'}}>Pay Now</button>
                     <button type="submit" className="btn" style={{backgroundColor:'#0d6efd', cursor:'pointer'}}>
                         <a class="donate-with-crypto" style={{color:'white',textDecoration: 'none'}}
 						href="https://commerce.coinbase.com/checkout/29b8d5db-a3f0-43f0-a863-c4ea75004eea">

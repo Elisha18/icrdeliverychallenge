@@ -9,8 +9,10 @@ function App() {
   const [values, setValues] = useState([]);
   const [types, setTypes] = useState('Buy');
   const [order, setOrder] = useState({
-    amount: '2000',
-    cost: '197.00'
+    miles: '1000',
+    tax: '1.00',
+    amount:'7.00',
+    cost: '8.00'
   });
   const [sort, setSort] = useState();
 

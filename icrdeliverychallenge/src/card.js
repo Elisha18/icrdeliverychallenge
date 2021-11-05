@@ -1,47 +1,65 @@
 export const cardData = [
     {
       "type": "Buy",
-      "amount": 2000,
-      "cost": 1.00
+      "miles": 1000,
+      "tax":1.00,
+      "amount": 7.00,
+      "cost":8.00,
     },
     {
       "type": "Buy",
-      "amount": 4000,
+      "miles": 4000,
+      "tax":20.00,
+      "amount": 430.00,
       "cost": 450.00
     },
     {
       "type": "Buy",
-      "amount": 7000,
+      "miles": 7000,
+      "tax":20.00,
+      "amount": 580.00,
       "cost": 600.00
     },
     {
       "type": "Gift",
-      "amount": 1500,
-      "cost": 300.00
+      "miles": 1000,
+      "tax":1.00,
+      "amount": 7.00,
+      "cost":8.00,
     },
     {
       "type": "Gift",
-      "amount": 4500,
+      "miles": 4500,
+      "tax":20.00,
+      "amount": 380.00,
       "cost": 400.00
     },
     {
       "type": "Gift",
-      "amount": 7500,
+      "miles": 7500,
+      "tax":20.00,
+      "amount": 555.00,
       "cost": 575.00
     },
     {
       "type": "Transfer",
-      "amount": 1500,
-      "cost": 320.00
+      "miles": 1000,
+      "tax":1.00,
+      "amount": 7.00,
+      "cost": 8.00
     },
     {
       "type": "Transfer",
-      "amount": 3000,
+      "miles": 3000,
+      "tax":20.00,
+      "amount": 530.00,
       "cost": 550.00
     },
     {
       "type": "Transfer",
-      "amount": 6000,
+      "miles": 6000,
+      "tax":20.00,
+      "amount": 715.00,
       "cost": 735.00
     }
   ]

@@ -14,10 +14,10 @@ function CardComponents ({value, classes, onOrderChange}) {
         <>
             <div className={classname()} onClick={()=>onOrderChange(value)} style={{marginBottom:'0'}}>
                 <div className="card-miles">
-                    {value.type} {value.amount} Miles
+                    {value.type} {value.miles} Miles
                 </div>
                 <div className="card-cost">
-                    ${value.cost}
+                    ${value.amount}
                 </div>
             </div>
         </>
